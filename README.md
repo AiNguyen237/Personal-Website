@@ -1,5 +1,5 @@
 # Personal-Website
-Website was created during the Web Bootcamp on Udemy and based on personal website of ![Sean Hairpin](https://reeoo.com/sean-halpin-2).
+Website was created during the Web Bootcamp on Udemy and based on personal website of [Sean Hairpin](https://reeoo.com/sean-halpin-2).
 
-If you want to give my website a look, click 
+If you want to give my website a look, check it out [HERE](https://ainguyen237.github.io/Personal-Website/) 
 
