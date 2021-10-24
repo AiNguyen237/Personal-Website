@@ -1,0 +1,220 @@
+/** For the entire website to fill the whole screen **/
+body{
+    margin: 0;
+}
+
+/** Styling for our first section of the first page **/
+.first-page{
+    background-color: #2F5D62;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    padding-top: 2%;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    color: #DFEEEA;
+    margin: 0 auto;
+    font-size: 3rem;    
+}
+
+h2{
+    position: relative;
+    font-family: 'Sacramento', cursive;
+    color: #DFEEEA;
+    margin: 0;
+    height: auto;
+    padding-top: 8%;
+}
+
+/** Styling the first paragraphs of the first section of the page **/
+p{
+    font-family: 'Merriweather', serif;
+    color: #DFEEEA;
+    font-weight: normal;
+    line-height: 200%;
+}
+span{
+    text-decoration: underline; /** underline the pro in programmer part **/
+}
+
+/** Styling of our girl image to be at the bottom of the first section and in the middle **/
+.girl-img{
+    position: relative;
+    margin: 0 auto; /** for centering the image **/
+    top: 20%;
+}
+
+.plant-img{
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    bottom: 80%;
+    left: 100px;
+}
+
+.second-page{
+    background-color: #DFEEEA;
+    text-align: center;
+}
+
+.id-img{
+    position: relative;
+    margin: 0 auto;
+    width: 20%;
+    height: 20%;
+    padding-top: 75px; /** for the image to not be too close to the first section div **/
+    padding-bottom: 50px;
+}
+
+.about-me{
+    position: relative;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding-top: 5%;
+    color: #2F5D62;
+}
+
+.introduction{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 8%;
+    color: #2F5D62;
+}
+
+.can-do-slogan{
+    padding-top:8%;
+    font-family: 'Merriweather', serif;
+    padding: 2%;
+    text-align: center;
+    color: #2F5D62;
+}
+
+hr{
+    margin-bottom: 0;
+    padding: 4% 0;
+    border: 0;
+    border-style: dotted none none;
+    border-width: 10px;
+    width: 5%;
+    padding-bottom: 4%;
+    color: lightgray;
+}
+.third-page{
+    background-color: #DFEEEA;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+h3{
+    color: #2F5D62;
+    width: 50%;
+    padding-left: 13rem;
+}
+
+.skills{
+    color: #2F5D62;
+    width: 45rem;
+    padding-left: 13rem;
+    text-align: justify;
+}
+
+.skill-img{
+    position: relative;
+    width: 10rem;
+    float:left;
+    right: 5rem;
+}
+
+.skill-section{
+    padding: 5rem;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.status{
+    margin: auto;
+    width: 25rem;
+    height: 10rem;
+    background-color: #5E8B7E;
+    text-align: center;
+}
+
+.slogan{
+    padding-top: 2rem;
+}
+
+.contact-want{
+    padding-top: 2rem;
+    color: #2F5D62;
+    margin: 40px auto 60px auto;
+    width: 40%;
+    text-align: center;
+}
+
+.btn {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    height: 12px;
+    line-height: 12px;
+    color: #DFEEEA;
+    font-family: 'Merriweather', serif;
+    width: 122px;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 40px;
+    background-color: #5E8B7E;
+    border: solid #5E8B78 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #5E8B78 1px;
+    background: #5E8B78;
+    background-image: -webkit-linear-gradient(top, #5E8B78, #DFEEEA);
+    background-image: -moz-linear-gradient(top, #5E8B78, #DFEEEA);
+    background-image: -ms-linear-gradient(top, #5E8B78, #DFEEEA);
+    background-image: -o-linear-gradient(top, #5E8B78, #DFEEEA);
+    background-image: -webkit-gradient(to bottom, #5E8B78, #DFEEEA);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .footer{
+     background-color: #2F5D62;
+     text-align: center;
+     height: 5rem;
+     margin: auto;
+     padding: 50px 0 20px;
+ }
+
+.links{
+    text-align: center;
+    padding: 0;
+    margin: auto;
+}
+
+a{
+    color: #DFEEEA;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    margin: 0 20px;
+}
+
+.credits{
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 20px;
+}
